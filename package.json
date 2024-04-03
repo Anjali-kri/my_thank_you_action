@@ -1,0 +1,24 @@
+{
+  "name": "my_thank_you_action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjali-kri/my_thank_you_action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anjali-kri/my_thank_you_action/issues"
+  },
+  "homepage": "https://github.com/Anjali-kri/my_thank_you_action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.38.1",
+    "add": "^2.0.6"
+  }
+}

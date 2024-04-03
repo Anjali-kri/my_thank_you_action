@@ -1,0 +1,15 @@
+name: 'Thanky you Action'
+description: 'Say "Thank You" to new pull request'
+author: 'Anjali Singh'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+  TENOR_TOKEN:
+    description: 'Tenor API token'
+    required: true
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
